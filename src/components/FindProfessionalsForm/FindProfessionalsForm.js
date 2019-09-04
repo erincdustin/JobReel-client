@@ -202,17 +202,6 @@ export default class JobSearchForm extends React.Component {
               classNamePrefix="select"
             />
           </div>
-          {/* <div>
-            <Label htmlFor='limit-input'>
-              Results Limit
-            </Label>
-            <br />
-            <Input
-              ref={this.firstInput}
-              id='limit-input'
-              name='limit'
-            />
-          </div> */}
           <br />
           <Button type="submit">Submit</Button>
           <Button type="submit" onClick={() => this.props.history.goBack()}>Back</Button>

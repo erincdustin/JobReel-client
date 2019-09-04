@@ -40,49 +40,48 @@ All the information that is needed to use the app is here
 
 The Dashboard route displays notifications as well as summary sections for applied jobs, saved jobs, saved companies, saved contacts, saved events, and saved resources. Each summary section displays the last three items added to that category.
 
-### NotFound:
-
-In an event of a bad request, user is taken to this page. Try something like "skyhigh" or "iwanttoseestarwars"
 
 ## API Documentation and Routes
 
 ### Jobs Route: Github and Authentic
 
-The jobs route relies on two simultaneous calls to two seperate external API's, passed through the server end. Seperate Job and GithubJob components take the data objects from the two respective API calls and reformat them to fit the same rendering object framework for the Jobs Route.
+The jobs route relies on two simultaneous calls to two separate external API's, passed through the server. These Job and GithubJob components take the data objects from the two respective API calls and reformat them to fit the same rendering object framework for the Jobs Route.
 
 ### Find Contacts Route: Professional Contacts Route
 
-The professional contacts route is leveraged on the hunter.io API. This returns a large nested dataset matching either searches by domain (a url) or company name (a string). Within the API if domain is entered it ignores the company name in the search, so we only render one at a time as text is added to either input. Additional optional search criteria are, seniority and department. 
+The professional contacts route is leveraged on the hunter.io API. This returns a large nested dataset matching either searches by domain (url, e.g. google.com) or company name (a string, e.g. Google). Within the API if domain is entered it ignores the company name in the search, so we only render one at a time as text is added to either input. Additional optional search criteria are seniority and department. 
 
 ### Find Events Route: Eventbrite Route
 
-The find events route uses the eventbrite API. The api is guarded with OAUTH2, thus emphasizing hte importance of sending the external api call through our server. Users are redirected to Eventbrite to give permissions to JobReel to use their account in searching for and RSVP'ing to events. OAUTH tokens are passed only to the server. Search criteria include jobtitle (a query string), city (a string), and optional category and subcagetories. Subcategories only render  when an indvidual category has been selected, after which appropriate subcategories render for a gvien category. 
+The Find Events route uses the eventbrite API. The API is guarded with OAUTH2, thus emphasizing the importance of sending the external API call through our server. Users are redirected to Eventbrite to give permissions to JobReel to use their account in searching for and RSVP'ing to events. OAUTH tokens are passed only to the server. Search criteria include jobtitle (a query string), city (a string), and optional category and subcagetories. Subcategories only render  when an indvidual category has been selected, after which appropriate subcategories render for a gvien category. 
 
 ## Database Related Documentation and Routes
 
+![assets](src/images/savedassetsimage.jpg "saved-assets-example")
+
+### Saved Jobs:
+
+The Saved Jobs route displays all jobs of interest that the user has stored to the database. This route also contains a form that allows users to manually add jobs to the database. The user can also edit saved job information.
+
+### Saved Events:
+
+The Saved Events route displays all events of interest that the user has stored to the database. This route also contains a form that allows users to manually add events to the database. The user can also edit saved event information.
+
+### Saved Companies:
+
+The Saved Companies route displays all companies of interest that the user has stored to the database. This route also contains a form that allows users to manually add companies to the database. The user can also edit saved company information.
+
+### Saved Contacts:
+
+The Saved Contacts route displays all contacts of interest that the user has stored to the database. This route also contains a form that allows users to manually add contacts to the database. The user can also edit saved contact information.
+
 ### Resources:
 
-When you look for job every resuorce is great. Save the resources to this route to access it later when needed
-
-### SavedCompanies:
-
-The SavedCompanies route displays all companies of interest that the user has stored to the database. This route also contains a form that allows users to manually add companies to the database. The user can also edit saved company information.
-
-### SavedContacts:
-
-The SavedContacts route displays all contacts of interest that the user has stored to the database. This route also contains a form that allows users to manually add contacts to the database. The user can also edit saved contact information.
-
-### SavedEvents:
-
-The SavedEvents route displays all events of interest that the user has stored to the database. This route also contains a form that allows users to manually add events to the database. The user can also edit saved event information.
-
-### SavedJobs:
-
-The SavedJobs route displays all jobs of interest that the user has stored to the database. This route also contains a form that allows users to manually add jobs to the database. The user can also edit saved job information.
+The Resources route displays a list of resources that the user has stored, and can be categorized by book, website, magazine, online publication, github repository, or podcast.
 
 ## Summary
 
-JobReel simplifies the job search process for Thinkful Graduates. THe app is loaded with 3rd party API's to assist you in job search. Our database can hold entries such as jobs that user applied to, connects with people, and companies of interest. User is greated with user friendly dsahboard that has all information needed to start searching for the job and connect with people at different companies. The app is responsive and can be used on desktop, laptop, tablet, or phone! Choice is yours! JobReel is you job search companion!
+JobReel simplifies the job search process for bootcamp Graduates. The app is loaded with 3rd party API's to assist you in job search. Our database can hold entries such as jobs that user applied to, professional contact information, and companies of interest. The user is greeted with a user-friendly dashboard that contains all the information needed to start searching for your dream job and connecting with contacts in your local community. The app is responsive and can be used on desktop, laptop, tablet, or mobile. JobReel is you job search companion!
 
 ## Technology Used
 

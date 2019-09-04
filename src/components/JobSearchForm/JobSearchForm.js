@@ -43,17 +43,6 @@ class JobSearchForm extends React.Component {
           <h2>Search for Job</h2>
         </div>
         <form className='JobSearchForm' onSubmit={this.handleSubmit}>
-          {/* <div>
-            <Label htmlFor='industry-input'>
-              Industry
-            </Label>
-            <br/>
-            <Input
-              ref={this.firstInput}
-              id='industry-input'
-              name='industry'
-            />
-          </div> */}
           <div>
             <Label htmlFor='job-title-input'>
               Job Title

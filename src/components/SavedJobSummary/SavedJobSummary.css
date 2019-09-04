@@ -2,12 +2,9 @@
   .saved-job-list{
     grid-column-start: 4;
     grid-column-end: 9;
-    /* border: 1px solid black; */
     border-radius: 10px;
     height: 500px;
     position: relative;
-    /* background: #3a3846;
-    color: white; */
     text-align: center;
     overflow-y: auto;
   }
@@ -47,12 +44,9 @@
   .saved-job-list{
     grid-column-start: 1;
     grid-column-end: 9;
-    /* border: 1px solid black; */
     border-radius: 10px;
     height: 400px;
     position: relative;
-    /* background: #3a3846;
-    color: white; */
     text-align: center;
     overflow-y: auto;
   }
@@ -92,12 +86,9 @@
   .saved-job-list{
     grid-column-start: 1;
     grid-column-end: 9;
-    /* border: 1px solid black; */
     border-radius: 10px;
     height: 400px;
     position: relative;
-    /* background: #3a3846;
-    color: white; */
     text-align: center;
     overflow-y: auto;
   }

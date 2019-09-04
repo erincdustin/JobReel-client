@@ -93,8 +93,7 @@
   #save-button {
     position: absolute;
     bottom: 0.5em;
-    left:15%;
-    right:15%
+    left:20%;
   }
   
   .collapseButton:hover {
@@ -198,8 +197,7 @@
   #save-button {
     position: absolute;
     bottom: 0.5em;
-    left:15%;
-    right:15%
+    left:35%;
   }
   
   .collapseButton:hover {
@@ -301,8 +299,7 @@
   #save-button {
     position: absolute;
     bottom: 0.5em;
-    left:15%;
-    right:15%
+    left:5%;
   }
   
   .collapseButton:hover {

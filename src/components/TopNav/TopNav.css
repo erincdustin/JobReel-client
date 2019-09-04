@@ -5,12 +5,9 @@
   grid-column-end: 9;
   width: 95%;
   min-width: 320px;
-  /* min-height: 100%; */
-  height: 125px;
+  height: 130px;
   border-radius: 10px;
   margin: 2.5% 10px;
-  /* background: #3C3230;
-  color: #eeebd9; */
   background: #3a3846;
   color: white;
   line-height: 168%;
@@ -27,8 +24,7 @@
 
 .topLink:active, .topLink:hover {
   transition: all 0.3s ease-in;
-  /* background: #9E4624; */
-  background: #636363;
+  background: #676572;
 }
 
 .topLink > a {
@@ -38,9 +34,12 @@
 @media screen and (max-width: 380px) {
   .topLink {
     width: 50%;
+    font-size: 14px;
   }
   .TopNav {
-    padding: 5px;
+   min-width: 300px;
+   margin: auto;
+   width: 95%;
   }
 
 }

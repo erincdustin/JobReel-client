@@ -2,7 +2,6 @@
   .app-description {
     border: 1px black solid;
     padding: 5%;
-    /* width: 320px; */
     min-height: 350px;
     border-radius: 10px;
     background: #3a3846;
@@ -32,7 +31,6 @@
   .app-description {
     border: 1px black solid;
     padding: 5%;
-    /* width: 100%; */
     min-height: 350px;
     margin: 10px auto;
     border-radius: 10px;
@@ -59,35 +57,4 @@
   }
 }
 
-/* @media (min-width: 481px) and (max-width: 960px) {
-  .app-description {
-    border: 1px black solid;
-    padding: 5%;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    width: 320px;
-    min-height: 350px;
-    border-radius: 10px;
-    background: #3b3a50;
-    color: #eeebd9;
-    box-shadow: 0.5em 0.5em 0.2em rgb(48, 39, 39);
-  }
-  
-  .app-description > h1{
-    font-size: 26px;
-    text-align: left;
-  }
-  
-  .app-description > h2{
-    font-size: 20px;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .app-description > p {
-    margin-top: 1.5em; 
-    line-height: 150%;
-  }
-} */
 

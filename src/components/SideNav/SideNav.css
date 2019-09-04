@@ -10,8 +10,6 @@
   text-align: left;
   background: #3a3846;
   color: white;
-  /* background: #3C3230;
-  color: #eeebd9; */
 }
 
 .link {
@@ -30,8 +28,7 @@
 
 .link:active, .link:hover {
   transition: all 0.3s ease-in;
-  /* background: #9E4624; */
-  background: #636363;
+  background: #676572;
 }
 
 @media screen and (max-width: 960px) {

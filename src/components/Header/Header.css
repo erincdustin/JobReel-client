@@ -22,7 +22,6 @@
 }
 
 .logo {
-  /* width: 50%; */
   grid-column-start: 1;
   grid-column-end: 4;
   text-decoration: none;
