@@ -2,32 +2,40 @@
   text-align: center;
 }
 
+.notifications-box{
+  height: 300px;
+}
+
 .notifications {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   line-height: 1.5rem;
 }
 
 .notification{
-  background: #3b3a50;
+  background: rgb(238, 238, 238);
+  color: black;
   padding: 10px;
   border-radius: 10px;
 }
 
+.notification a{
+  color: rgb(89, 84, 153);
+  font-weight: bold;
+}
+
 .notification-button{
   width: 50px;
-  background: #56403e;
+  background: rgb(101, 101, 136);
+  color: white;
   border-radius: 10px;
+  border: none;
   height: 2em;
-  color: #eeebd9;
   margin: auto 10px;
 }
 
 .notification-button:hover {
-  transition: 0.3s;
-  transform: scale(1.2);
-  background: #3C824E;
-  box-shadow: 0.5em 0.5em 0.2em rgb(48, 39, 39);
+  background: grey;
 }
 
 .notification-button:focus {

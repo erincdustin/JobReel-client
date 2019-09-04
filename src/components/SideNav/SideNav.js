@@ -20,23 +20,23 @@ class SideNav extends React.Component {
         </div>
         <br />
         <div className='link'>
-          <Link to='/saved-jobs'>My Saved Jobs</Link>
+          <Link to='/saved-jobs'>My Jobs</Link>
         </div>
         <br />
         <div className='link'>
-          <Link to='/saved-events'>My Saved Events</Link>
+          <Link to='/saved-events'>My Events</Link>
         </div>
         <br />
         <div className='link'>
-          <Link to='/contacts'>My Saved Contacts</Link>
+          <Link to='/contacts'>My Contacts</Link>
         </div>
         <br />
         <div className='link'>
-          <Link to='/companies'>My Saved Companies</Link>
+          <Link to='/companies'>My Companies</Link>
         </div>
         <br />
         <div className="link">
-          <Link to='/resources'>My Saved Resources</Link>
+          <Link to='/resources'>My Resources</Link>
         </div>
       </div>
     )

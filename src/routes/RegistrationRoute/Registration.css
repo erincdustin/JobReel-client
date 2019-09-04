@@ -17,7 +17,7 @@
   }
   
   .form-registration {
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-column-end: 9;
     border: 1px black solid;
     min-width: 300px;
@@ -27,15 +27,17 @@
     border-radius: 10px;
     text-align: center;
     height: 100%;
-    background: #3b3a50;
-    color: #eeebd9;
+    background: #3a3846;
+    color: white;
     box-shadow: 0.5em 0.5em 0.2em rgb(48, 39, 39);
   }
   
-  .registration-description {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    height: 25em;
+  .app-description {
+    grid-column-start: 0;
+    grid-column-end: 4;
+    height: 100%;
+    line-height: 2rem;
+    min-width: 300px;
   }
   
   .error {
@@ -62,24 +64,24 @@
   }
   
   .form-registration {
-    grid-column-start: 1;
-    grid-column-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 8;
     border: 1px black solid;
     min-width: 95%;
-    margin: 0 auto;
+    margin: 5px auto 25px auto;
     padding: 5%;
     line-height: 150%;
     border-radius: 10px;
     text-align: center;
     height: 100%;
-    background: #3b3a50;
-    color: #eeebd9;
+    background: #3a3846;
+    color: white;
     box-shadow: 0.5em 0.5em 0.2em rgb(48, 39, 39);
   }
   
-  .registration-description {
-    grid-column-start: 1;
-    grid-column-end: 9;
+  .app-description {
+    grid-column-start: 2;
+    grid-column-end: 8;
     height: 25em;
   }
   

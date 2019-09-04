@@ -3,11 +3,8 @@
     grid-column-start: 4;
     grid-column-end: 9;
     height: 500px;
-    border: 1px solid black;
     border-radius: 10px;
     position: relative;
-    background: #3C3230;
-    color: #eeebd9;
     text-align: center;
     overflow-y: auto;
 }

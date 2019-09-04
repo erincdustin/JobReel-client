@@ -24,7 +24,7 @@ class DashResourceSummary extends React.Component {
     });
     resources = resources.slice(0, 3).map(resource => {
       return (
-        <li key={resource.resource_id}>{resource.type} - {resource.title}</li>
+        <li key={resource.resource_id}>{resource.type.toUpperCase()} - {resource.title}</li>
       )
     })
     return (

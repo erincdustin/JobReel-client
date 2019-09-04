@@ -1,6 +1,7 @@
 .footer {
   max-width: 100vw;
-  background: #3C3230;
+  /* background: #3C3230; */
+  background: #3a3846;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -12,17 +13,25 @@
   grid-column-start: 1;
   grid-column-end: 2;
   margin: auto;
+  padding-left: 15px;
 }
 
 .backEnd {
   grid-column-start: 3;
   grid-column-end: 4;
   margin: auto;
+  padding-right: 15px;
 }
 
 .contactUs {
   grid-column-start: 2;
   grid-column-end: 3;
   margin: auto;
+}
+
+@media screen and (max-width: 870px){
+  .footer{
+    height: 75px;
+  }
 }
 

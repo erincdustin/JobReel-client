@@ -29,6 +29,13 @@
     grid-column-start: 1;
     grid-column-end: 9;
   }
+
+  .title h2{
+    background: rgb(238, 238, 238);
+    border-radius: 10px;
+    width: 40%;
+    margin: 15px auto;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
@@ -39,6 +46,13 @@
 
   .sideNavContainer {
     display: none;
+  }
+
+  .title h2{
+    background: rgb(238, 238, 238);
+    border-radius: 10px;
+    width: 50%;
+    margin: 15px auto;
   }
 }
 

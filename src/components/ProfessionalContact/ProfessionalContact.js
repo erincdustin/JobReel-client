@@ -62,7 +62,7 @@ renderProfessionalContact() {
   return (
   <div className='contact-card'>
     <div className='contact-name'>
-      <h4>Name: {professional.first_name} {professional.last_name}</h4>
+      <h3>Name: {professional.first_name} {professional.last_name}</h3>
     </div>
     <div className='contact-department'>  
         {professional.department ? <p>Department: {(professional.department).toUpperCase()}</p> : ''}

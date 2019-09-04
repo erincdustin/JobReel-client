@@ -3,8 +3,7 @@ import {Link} from 'react-router-dom';
 import TokenService from '../../services/token-service';
 import './Header.css';
 import JobReelContext from '../../context/JobReelContext';
-import './Header.css';
-import logo from '../../assests/jobreellogo200.png'
+// import logo from '../../assests/jobreellogo200.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Header extends React.Component {
@@ -45,7 +44,7 @@ class Header extends React.Component {
     if (this.context.user.username) {
       return (
         <>
-          Signed in as  {this.context.user.username.toUpperCase()} <Link to='/profile'><FontAwesomeIcon icon='user-cog'/></Link>
+          Signed in as  {this.context.user.username.toUpperCase()} <Link to='/profile'><FontAwesomeIcon className='user-cog' icon='user-cog'/> </Link>
         </>
       )
     } else {
@@ -61,7 +60,8 @@ class Header extends React.Component {
       <header className='header'>
         <div className='logo'>
           <Link to='/dashboard'>
-            <img src={logo} alt='jobreel-logo'/>
+            <FontAwesomeIcon className="fish" icon="fish"> </FontAwesomeIcon> 
+            <div className="app-name"> JobReel</div>
           </Link>
         </div>
         <div className='username'>

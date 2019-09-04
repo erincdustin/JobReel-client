@@ -31,21 +31,6 @@ const categoryOptions = [
     { value: '199', label: 'Other' },
 ];
 
-
-// const subcategoryOptions = [
-//     { value: 'it', label: 'IT' },
-//     { value: 'finance', label: 'Finance' },
-//     { value: 'management', label: 'Management' },
-//     { value: 'sales', label: 'Sales' },
-//     { value: 'legal', label: 'Legal' },
-//     { value: 'support', label: 'Support' },
-//     { value: 'hr', label: 'HR' },
-//     { value: 'marketing', label: 'Marketing' },
-//     { value: 'communication', label: 'Communication' },
-//     { value: 'executive', label: 'Executive' }
-// ];
-
-
 const customStyles = {
     option: (provided, state) => ({
         ...provided,
@@ -107,7 +92,6 @@ export default class EventBriteSearches extends Component {
         if (this.state.subcategory) {
             subcategory = e.target['subcategory'].value;
         }
-        // const limit = e.target['limit'].value;
         this.context.setEventsSearch({ query, location, category, subcategory })
         setTimeout(() => {
             const search = this.context.eventsSearch
@@ -249,8 +233,8 @@ export default class EventBriteSearches extends Component {
     renderNoResultsMessage() {
         return (
             <h2>
-                Sorry no results were found from that search.
-          </h2>
+                Sorry, no results were found from that search.
+            </h2>
         )
     }
 

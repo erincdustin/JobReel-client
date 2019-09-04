@@ -9,12 +9,9 @@
     position: relative;
     grid-column-start: 4;
     grid-column-end: 9;
-    border: 1px solid black;
     border-radius: 18px;
     height: 400px;
     position: relative;
-    background: #3C3230;
-    color: #eeebd9;
     text-align: center;
   }
 
@@ -37,7 +34,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    color: #eeebd9;
+    color:#3a3846;
   }
   
   #job-go-back:hover {
@@ -81,12 +78,9 @@
     position: relative;
     grid-column-start: 1;
     grid-column-end: 9;
-    border: 1px solid black;
     border-radius: 18px;
     height: 400px;
     position: relative;
-    background: #3C3230;
-    color: #eeebd9;
     text-align: center;
   }
 
@@ -99,7 +93,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    color: #eeebd9;
+    color: #3a3846;
   }
   
   #job-go-back:hover {

@@ -2,26 +2,34 @@
     width: 90%;
     border: 1px black solid;
     min-width: 300px;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 10px;
-    margin: 0.75em auto;
-    background: #3b3a50;
-    color: #eeebd9;
+    background: #3a3846;
+    color: white;
+    margin-bottom: 1.5em;
     box-shadow:  0.5em 0.5em 0.2em rgb(48, 39, 39); 
 }
 
+.event-box a{
+    color: rgb(163, 161, 189);
+    font-weight: bold;
+}
+
+.event-box button, .edit-event-form button{
+   margin: 5px;
+}
+
 .edit-event-form {
-    width: 80%;
+    width: 90%;
     border: 1px black solid;
     min-width: 300px;
-    margin: 0 auto;
     padding: 5%;
     line-height: 150%;
     border-radius: 10px;
     text-align: center;
-    margin: auto;
-    background: #3b3a50;
-    color: #eeebd9;
+    margin-bottom: 1.5em;
+    background: #3a3846;
+    color: white;
     box-shadow:  0.5em 0.5em 0.2em rgb(48, 39, 39); 
 }
 

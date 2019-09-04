@@ -3,9 +3,11 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Barlow|Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 h2 {
-  font-family: 'Staatliches', cursive;
+  /* font-family: 'Staatliches', cursive; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 2em;
 }
 
@@ -13,7 +15,7 @@ p {font-size: 1em}
 
 a {
   text-decoration: none;
-  color: #FFDA71;
+  color: white;
 }
 
 body {
@@ -22,7 +24,8 @@ body {
   font-family: 'Barlow', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#DCD7D4, #9E4624);
+  background: rgb(238, 238, 238);
+  /* background: linear-gradient(#DCD7D4, rgb(113, 118, 150)); */
 }
 
 code {

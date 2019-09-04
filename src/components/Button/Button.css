@@ -1,16 +1,15 @@
-.Button {
-  background: #56403e;
+.Button { 
+  background: rgb(212, 212, 212);
+  border: none;
+  color: black;
   border-radius: 10px;
   width: 10em;
   height: 2em;
-  color: #eeebd9;
+  font-size: 14px;
 }
 
 .Button:hover {
-  transition: 0.3s;
-  transform: scale(1.2);
-  background: #3C824E;
-  box-shadow: 0.5em 0.5em 0.2em rgb(48, 39, 39);
+  background: rgb(141, 141, 167);
 }
 
 .Button:focus {

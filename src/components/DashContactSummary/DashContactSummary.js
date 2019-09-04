@@ -23,8 +23,13 @@ class DashContactSummary extends React.Component {
       return new Date(b.date_added) - new Date(a.date_added);
     });
     contacts = contacts.slice(0, 3).map(contact => {
+      let email = ''
+      if(contact.email){
+        let mailto = `mailto:${contact.email}`
+        email = <a href={mailto}>{contact.email}</a>
+      }
       return (
-        <li key={contact.contact_id}>{contact.contact_name} - {contact.company} - {contact.email} </li>
+        <li key={contact.contact_id}>{contact.contact_name} - {contact.company} - {email} </li>
       )
     })
     return (
