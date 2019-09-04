@@ -20,23 +20,16 @@ Password: Asdf123!
 
 ![register](/src/images/registerpicture.jpg "Register Route")
 
-Registration route has information about the project as well as a form for a user to sign up for the application
+The Registration route has information about the project as well as a form for a user to sign up for the application
 
 ### Login:
 ![login](/src/images/loginpicture.jpg "Login")
 
 Simple login form to verify entered credentials.
-### Profile:
-
-![profile](src/images/profilepicture.jpg "Profile-screen")
-
-The Profile route displays the user's account information stored in the database and allows the user to edit that information.
 
 ### Dashboard:
 
 ![dashboard](src/images/dashboardpic.jpg "Dashboard-screen")
-
-All the information that is needed to use the app is here
 
 The Dashboard route displays notifications as well as summary sections for applied jobs, saved jobs, saved companies, saved contacts, saved events, and saved resources. Each summary section displays the last three items added to that category.
 
