@@ -11,7 +11,7 @@ exports[`JobNotification snapshot test renders the UI as expected 1`] = `
     You applied to 
     Company B
      
-    19
+    21
      days ago.  Have you heard back?
     <button
       className="notification-button"
