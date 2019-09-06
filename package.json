@@ -33,7 +33,7 @@
     "start": "react-scripts start",
     "prebuild": "react-scripts test",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "yarn test",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "eject": "react-scripts eject",
