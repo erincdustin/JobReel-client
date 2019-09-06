@@ -31,11 +31,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "react-scripts test",
+    "prebuild": "react-scripts test --watchAll=false",
     "build": "react-scripts build",
-    "test": "yarn test",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "now ./build",
