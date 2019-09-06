@@ -8,11 +8,11 @@ exports[`ProfessionalContact snapshot test renders the UI as expected 1`] = `
     <div
       className="contact-name"
     >
-      <h4>
+      <h3>
         Name: 
         first
          
-      </h4>
+      </h3>
     </div>
     <div
       className="contact-department"
