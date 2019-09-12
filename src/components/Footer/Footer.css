@@ -13,20 +13,21 @@
   grid-column-start: 1;
   grid-column-end: 2;
   margin: auto;
-  padding-left: 15px;
+  /* padding: auto; */
 }
 
 .backEnd {
   grid-column-start: 3;
   grid-column-end: 4;
   margin: auto;
-  padding-right: 15px;
+  /* padding: auto; */
 }
 
 .contactUs {
   grid-column-start: 2;
   grid-column-end: 3;
   margin: auto;
+  /* padding: auto; */
 }
 
 @media screen and (max-width: 870px){

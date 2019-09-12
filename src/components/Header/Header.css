@@ -57,7 +57,7 @@
   padding: 5px;
 }
 
-.nav-links a {
+.header-link {
   text-decoration: none;
   display: block;
   text-align: right;
@@ -97,7 +97,7 @@
     font-size: 20px;
   }
 
-  .nav-links a{
+  .header-link{
     display: block;
     text-align: right;
     padding-right: 15px;
@@ -113,7 +113,7 @@
     margin-left: 10px;
   }
 
-  .nav-links  a{
+  .header-link{
     display: block;
     text-align: right;
     padding-right: 10px;

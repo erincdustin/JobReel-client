@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import JobReelContext from '../../context/JobReelContext';
 import EventBriteItem from '../EventBriteItem/EventBriteItem';
 import './EventBriteList.css';
+import SideNav from '../../components/SideNav/SideNav';
+import TopNav from '../../components/TopNav/TopNav';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -63,6 +65,8 @@ export default class EventBriteList extends Component {
         <div className='title'>
             <h2>Events Results</h2>
         </div>
+        <SideNav/>
+        <TopNav/>
         <div className='results-container'>
           <Link to={`/eventbriteseach`} alt="goBack">
             <FontAwesomeIcon id='job-go-back' icon='times-circle' size='2x'/>

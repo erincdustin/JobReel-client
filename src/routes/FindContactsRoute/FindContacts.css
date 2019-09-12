@@ -4,23 +4,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
-}
+  }
 
-.findContactsRouteImage {
-  position: relative;
-  grid-column-start: 1;
-  grid-column-end: 9;
-}
+  .findContactsRouteImage {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
 
-.findContactsRouteImage > img {
-  height: 320px;
-  width: 320px;
-  position: absolute;
-  top: -50px;
-  left: 10%;
-  z-index: -1;
-}
-
+  .findContactsRouteImage > img {
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    top: -50px;
+    left: 10%;
+    z-index: -1;
+  }
 
   .results-container {
     position: relative;
@@ -145,5 +144,17 @@
       max-height: 100%;
       overflow-y: auto;
       overflow-block: inherit;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .SideNav{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    .TopNav{
+      display: none;
     }
   }

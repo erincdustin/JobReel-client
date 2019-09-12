@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import TokenService from '../../services/token-service';
 import './Header.css';
 import JobReelContext from '../../context/JobReelContext';
-// import logo from '../../assests/jobreellogo200.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Header extends React.Component {
@@ -20,7 +19,8 @@ class Header extends React.Component {
         <nav role ='navigation'>
           <Link 
             onClick={this.handleLogOutClick}
-            to='/login'>
+            to='/login'
+            className="header-link">
             Log Out
           </Link>
         </nav>
@@ -32,9 +32,9 @@ class Header extends React.Component {
     return (
       <div className='nav-links'>
         <nav role='navigation' className="login-logout">
-          <Link to ='/login'>Login</Link>
+          <Link to ='/login' className="header-link">Login</Link>
           {' '}
-          <Link to='/'>Sign Up</Link>
+          <Link to='/' className="header-link">Sign Up</Link>
         </nav>
       </div>
     )

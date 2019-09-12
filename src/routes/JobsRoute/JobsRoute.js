@@ -6,9 +6,8 @@ import config from '../../config'
 import TokenService from '../../services/token-service'
 import GithubJob from '../../components/Job/GithubJob';
 import SideNav from '../../components/SideNav/SideNav';
-import MediaQuery from 'react-responsive';
 import jobsRouteImage from '../../assests/jobsRouteImage.svg';
-import TopNav from '../../components/TopNav/TopNav'
+import TopNav from '../../components/TopNav/TopNav';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -115,12 +114,8 @@ export default class JobsRoute extends Component {
     <div className='title'>
       <h2>Jobs List</h2>
     </div>
-      <MediaQuery minDeviceWidth={961}>
       <SideNav/>
-      </MediaQuery>
-      <MediaQuery maxDeviceWidth={960}>
       <TopNav/>
-      </MediaQuery>
     <div className='job-results-container'>
       <Link  to={`/jobs`} alt="goBack">
         <FontAwesomeIcon id='job-go-back' icon='times-circle' size='2x'/>

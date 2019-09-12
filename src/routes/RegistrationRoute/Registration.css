@@ -1,4 +1,4 @@
-@media (min-width: 761px) {
+@media (min-width: 760px) {
   .registration-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -21,7 +21,9 @@
     grid-column-end: 9;
     border: 1px black solid;
     min-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
+    margin-top: 25px;
     padding: 5%;
     line-height: 150%;
     border-radius: 10px;
@@ -33,11 +35,13 @@
   }
   
   .app-description {
-    grid-column-start: 0;
+    grid-column-start: 1;
     grid-column-end: 4;
     height: 100%;
     line-height: 2rem;
+    max-width: 400px;
     min-width: 300px;
+    margin-top: 25px;
   }
   
   .error {
