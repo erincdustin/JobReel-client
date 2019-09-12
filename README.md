@@ -18,18 +18,18 @@ Password: Asdf123!
 
 ### Register:
 
-![register](/src/images/registerpicture.jpg)
+![register](/src/images/registration-page.jpg)
 
 The Registration route has information about the project as well as a form for a user to sign up for the application
 
 ### Login:
-![login](/src/images/loginpicture.jpg "Login")
+![login](/src/images/login-page.jpg "Login")
 
 Simple login form to verify entered credentials.
 
 ### Dashboard:
 
-![dashboard](src/images/dashboardpic.jpg "Dashboard-screen")
+![dashboard](src/images/dashboard-page.jpg "Dashboard-screen")
 
 The Dashboard route displays notifications as well as summary sections for applied jobs, saved jobs, saved companies, saved contacts, saved events, and saved resources. Each summary section displays the last three items added to that category.
 
@@ -50,7 +50,7 @@ The Find Events route uses the eventbrite API. The API is guarded with OAUTH2, t
 
 ## Database Related Documentation and Routes
 
-![assets](src/images/savedassetsimage.jpg "saved-assets-example")
+![assets](src/images/saved-assets-page.jpg "saved-assets-example")
 
 ### Saved Jobs:
 
