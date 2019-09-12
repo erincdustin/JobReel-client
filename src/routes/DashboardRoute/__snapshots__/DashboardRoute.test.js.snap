@@ -19,16 +19,8 @@ exports[`DashboardRoute snapshot test renders the UI as expected 1`] = `
       src="summary.svg"
     />
   </div>
-  <MediaQueryContextConsumer
-    minDeviceWidth={960}
-  >
-    <SideNav />
-  </MediaQueryContextConsumer>
-  <MediaQueryContextConsumer
-    maxDeviceWidth={959}
-  >
-    <TopNav />
-  </MediaQueryContextConsumer>
+  <SideNav />
+  <TopNav />
   <SummaryContainer />
 </div>
 `;

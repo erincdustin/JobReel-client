@@ -19,16 +19,8 @@ exports[`SavedEventsRoute snapshot test renders the UI as expected 1`] = `
       src="savedEventsBack.svg"
     />
   </div>
-  <MediaQueryContextConsumer
-    minDeviceWidth={961}
-  >
-    <SideNav />
-  </MediaQueryContextConsumer>
-  <MediaQueryContextConsumer
-    maxDeviceWidth={960}
-  >
-    <TopNav />
-  </MediaQueryContextConsumer>
+  <SideNav />
+  <TopNav />
   <AddEventForm />
 </div>
 `;

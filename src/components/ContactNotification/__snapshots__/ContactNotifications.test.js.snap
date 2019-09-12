@@ -10,7 +10,7 @@ exports[`ContactNotification snapshot test renders the UI as expected 1`] = `
   >
     You reached out to 
      
-    34
+    40
      days ago.
     <a
       href="mailto:email@email.com"
