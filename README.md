@@ -6,7 +6,7 @@ Aldiyar Batyrbekov, Chris Fiander, Erin Dustin, Jonathan Moore, Michael Romero
 
 ## Link to app
 
-https://jobreel.now.sh/
+https://jobreelapp.erincdustin.now.sh/
 
 ## Demo
 
@@ -18,7 +18,7 @@ Password: Asdf123!
 
 ### Register:
 
-![register](/src/images/registerpicture.jpg "Register Route")
+![register](/src/images/registerpicture.jpg)
 
 The Registration route has information about the project as well as a form for a user to sign up for the application
 
