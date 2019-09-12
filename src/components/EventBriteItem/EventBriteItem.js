@@ -31,7 +31,7 @@ export default class EventBriteList extends Component {
     componentDidMount() {
         const venue_id = this.props.venue_id
         const venue = { id: venue_id }
-        fetch(`${config.API_ENDPOINT}/eventbrite/venue`, {
+        fetch(`${config.EVENTBRITE_API_ENDPOINT}/eventbrite/venue`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

@@ -10,7 +10,7 @@ export default class EventBriteButton extends Component {
   }
 
   componentDidMount () {
-    fetch(`${config.API_ENDPOINT}/eventbrite`, {
+    fetch(`${config.EVENTBRITE_API_ENDPOINT}/eventbrite`, {
       method: 'GET',
       headers: {
         'authorization': `Bearer ${TokenService.getAuthToken()}`,

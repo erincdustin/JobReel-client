@@ -117,7 +117,7 @@ export default class EventBriteSearches extends Component {
         setTimeout(() => {
             if (this.state.category) {
                 const category = { id: categoryValue.value }
-                fetch(`${config.API_ENDPOINT}/eventbrite/categoriesbyID`, {
+                fetch(`${config.EVENTBRITE_API_ENDPOINT}/eventbrite/categoriesbyID`, {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json',

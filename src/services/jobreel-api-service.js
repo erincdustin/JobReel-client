@@ -424,7 +424,7 @@ const JobReelApiService = {
             })
     },
     getEventBriteEvents(search) {
-        return fetch(`${config.API_ENDPOINT}/eventbrite/events`, {
+        return fetch(`${config.EVENTBRITE_API_ENDPOINT}/eventbrite/events`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
