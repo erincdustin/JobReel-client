@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import JobReelContext from '../../context/JobReelContext';
-import EventBriteItem from '../EventBriteItem/EventBriteItem'
-import SideNav from '../SideNav/SideNav';
-import TopNav from '../../components/TopNav/TopNav'
-import MediaQuery from 'react-responsive';
+import EventBriteItem from '../EventBriteItem/EventBriteItem';
 import './EventBriteList.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -58,26 +55,7 @@ export default class EventBriteList extends Component {
             {eventsList}
         </div>
     )
-  }
-
-  //eventbrite continuation tokens currently not working
-  // handleNextPage = () => {
-  //     const page = this.context.eventNextPage
-  //     const search =  this.context.eventsSearch
-  //     JobReelService.getEventBriteEventsPaginated(search, page)
-  //         .then(data => {
-  //             if (data.pagination.page_count - data.pagination.page_number > 0) {
-  //                 this.context.setEventNextPage(data.pagination.page_number+1)
-  //             }
-  //             this.context.setEventPageNumber(data.pagination.page_number)
-  //             this.context.setEvents(data.events)
-  //             console.log(data)
-  //             console.log(this.context)
-  //             this.props.history.push(`/eventbriteevents`)
-  //         })
-  // }
-
-   
+  }   
 
   render() {
     return (
@@ -85,14 +63,8 @@ export default class EventBriteList extends Component {
         <div className='title'>
             <h2>Events Results</h2>
         </div>
-        <MediaQuery minDeviceWidth={961}>
-          <SideNav/>
-        </MediaQuery>
-        <MediaQuery maxDeviceWidth={960}>
-          <TopNav/>
-        </MediaQuery>
         <div className='results-container'>
-          <Link  to={`/`} alt="goBack">
+          <Link to={`/eventbriteseach`} alt="goBack">
             <FontAwesomeIcon id='job-go-back' icon='times-circle' size='2x'/>
           </Link>
             {this.renderEvents()}

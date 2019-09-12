@@ -159,7 +159,6 @@ export default class EventBriteSearches extends Component {
         const { subcategory } = this.state;
         return (
             <form className='JobSearchForm' onSubmit={this.handleSearch}>
-                <h4>Search for Events</h4>
                 <div>
                     <Label htmlFor='query'>Search Events</Label>
                     <br />
@@ -243,6 +242,9 @@ export default class EventBriteSearches extends Component {
     render() {
         return (
             <>
+                <div className='title'>
+                    <h2>Search for Events</h2>
+                </div>
                 {this.renderForm()}
                 {this.state.noResults && this.renderNoResultsMessage()}
             </>
