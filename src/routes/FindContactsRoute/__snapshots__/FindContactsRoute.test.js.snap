@@ -19,16 +19,8 @@ exports[`FindContactsRoute snapshot test renders the UI as expected 1`] = `
       Find Contacts
     </h2>
   </div>
-  <MediaQueryContextConsumer
-    minDeviceWidth={961}
-  >
-    <SideNav />
-  </MediaQueryContextConsumer>
-  <MediaQueryContextConsumer
-    maxDeviceWidth={960}
-  >
-    <TopNav />
-  </MediaQueryContextConsumer>
+  <SideNav />
+  <TopNav />
   <div
     className="results-container"
   >
