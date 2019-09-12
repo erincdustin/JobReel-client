@@ -4,7 +4,6 @@ import AddCompanyForm from '../../components/AddCompanyForm/AddCompanyForm';
 import jobReelApiService from '../../services/jobreel-api-service';
 import JobReelContext from '../../context/JobReelContext';
 import CompanySummary from '../../components/CompanySummary/CompanySummary';
-import MediaQuery from 'react-responsive';
 import savedCompBack from '../../assests/savedCompBack.svg'
 import TopNav from '../../components/TopNav/TopNav'
 import './SavedCompaniesRoute.css';
@@ -32,12 +31,8 @@ class SavedCompaniesRoute extends React.Component {
         <div className='savedCompBack'>
           <img src={savedCompBack} alt='saved-company-bakcground'/>
         </div>
-        <MediaQuery minDeviceWidth={961}>
           <SideNav/>
-        </MediaQuery>
-        <MediaQuery maxDeviceWidth={960}>
           <TopNav/>
-        </MediaQuery>
         {display}
       </div>
     )

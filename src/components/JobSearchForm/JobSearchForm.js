@@ -66,7 +66,7 @@ class JobSearchForm extends React.Component {
           </div>
           <br />
           <Button type="submit">Submit</Button>
-          <Button type="submit" onClick={() => this.props.history.goBack()}>Back</Button>
+          <Button type="submit" onClick={() => this.props.history.push('/dashboard')}>Back</Button>
         </form>
       </div>
     )

@@ -3,11 +3,11 @@
 .TopNav {
   grid-column-start: 1;
   grid-column-end: 9;
-  width: 95%;
+  width: 100%;
   min-width: 320px;
   height: 130px;
   border-radius: 10px;
-  margin: 2.5% 10px;
+  margin: 2.5% auto;
   background: #3a3846;
   color: white;
   line-height: 168%;

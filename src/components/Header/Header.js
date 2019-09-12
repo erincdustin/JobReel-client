@@ -16,7 +16,7 @@ class Header extends React.Component {
 
   renderLogoutLink() {
     return (
-      <div className='nav'>
+      <div className='nav-links'>
         <nav role ='navigation'>
           <Link 
             onClick={this.handleLogOutClick}
@@ -30,8 +30,8 @@ class Header extends React.Component {
 
   renderLoginLink() {
     return (
-      <div className='nav'>
-        <nav role='navigation'>
+      <div className='nav-links'>
+        <nav role='navigation' className="login-logout">
           <Link to ='/login'>Login</Link>
           {' '}
           <Link to='/'>Sign Up</Link>

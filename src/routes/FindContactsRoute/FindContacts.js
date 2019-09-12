@@ -73,9 +73,9 @@ export default class FindContactsRoute extends Component {
 
   renderNoResultsMessage() {
     return (
-        <h2>
-            Sorry no results were found from that search.
-      </h2>
+      <h3 className="error-message">
+        Sorry, no results were found from that search. 
+      </h3>
     )
   }
 

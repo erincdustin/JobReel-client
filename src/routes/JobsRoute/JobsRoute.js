@@ -23,6 +23,8 @@ export default class JobsRoute extends Component {
   static contextType = JobReelContext
 
   componentDidMount() {
+    this.context.setGithubJobs([])
+    this.context.setAuthenticJobs([])
     const savedJobUrls = this.context.savedJobs.map(job => job.url);
     let savedJobUrlsObj = {};
     savedJobUrls.forEach(url => {
@@ -91,9 +93,9 @@ export default class JobsRoute extends Component {
 
   renderNoResultsMessage() {
   return (
-    <h2>
-    Sorry no results were found from that search. 
-    </h2>
+    <h3 className="error-message">
+    Sorry, no results were found from that search. 
+    </h3>
   )
   }
 

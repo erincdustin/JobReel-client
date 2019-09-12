@@ -56,3 +56,15 @@
   }
 }
 
+@media (max-width: 960px) {
+  .SideNav{
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .TopNav{
+    display: none;
+  }
+}
+

@@ -4,7 +4,6 @@ import AddJobForm from '../../components/AddJobForm/AddJobForm';
 import SavedJobSummary from '../../components/SavedJobSummary/SavedJobSummary'
 import jobReelApiService from '../../services/jobreel-api-service';
 import JobReelContext from '../../context/JobReelContext';
-import MediaQuery from 'react-responsive';
 import TopNav from '../../components/TopNav/TopNav';
 import savedJobBack from '../../assests/savedJobsBack.svg'
 import './SavedJobsRoute.css';
@@ -31,12 +30,8 @@ class SavedJobsRoute extends React.Component {
         <div className='savedJobBackgroundImage'>
           <img src={savedJobBack} alt='saved-job-background'/>
         </div>
-        <MediaQuery minDeviceWidth={960}>
           <SideNav/>
-        </MediaQuery>
-        <MediaQuery maxDeviceWidth={959}>
           <TopNav/>
-        </MediaQuery>
         {display}
       </div>
     )
