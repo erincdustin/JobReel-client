@@ -23,7 +23,7 @@
     min-width: 300px;
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 2.5px;
     padding: 5%;
     line-height: 150%;
     border-radius: 10px;
@@ -41,7 +41,7 @@
     line-height: 2rem;
     max-width: 400px;
     min-width: 300px;
-    margin-top: 10px;
+    margin-top: 2.5px;
   }
   
   .error {
